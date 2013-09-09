@@ -9,7 +9,7 @@ group :development, :test do
 	gem 'rspec-rails'#, '2.9.0'
 end
 
-group :assets do
+#group :assets do
 	# Use SCSS for stylesheets
 	gem 'sass-rails', '~> 4.0.0'
 
@@ -18,7 +18,9 @@ group :assets do
 
 	# Use CoffeeScript for .js.coffee assets and views
 	gem 'coffee-rails', '~> 4.0.0'
-end
+
+	gem 'turbolinks'
+#end
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
