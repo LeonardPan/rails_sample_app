@@ -9,6 +9,8 @@ group :development, :test do
 	gem 'rspec-rails'#, '2.9.0'
 end
 
+gem 'bootstrap-sass', '2.0.0'
+
 #group :assets do
 	# Use SCSS for stylesheets
 	gem 'sass-rails', '~> 4.0.0'
